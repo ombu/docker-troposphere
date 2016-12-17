@@ -26,7 +26,7 @@ export AWS_DEFAULT_REGION=us-west-2
 export AWS_ACCESS_KEY_ID=...
 export AWS_SECRET_ACCESS_KEY=...
 
-docker run -v $PWD/example:/tmp \
+    docker run -v $PWD/example:/tmp \
     -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -e AWS_DEFAULT_REGION \
-     ombu/troposphere:1.9.0 fab list_stacks
+    ombu/troposphere:1.9.0 fab list_stacks
 
