@@ -1,4 +1,4 @@
-troposphere==1.9.0
-Fabric==1.13.1
-awscli==1.11.30
-boto==2.45.0
+troposphere==1.9.3
+Fabric==1.13.2
+awscli==1.11.87
+boto==2.46.1
